@@ -1,1 +1,3 @@
 CMakeList.txt的大部分篇幅都是在检测各种依赖库是否安装了，如果涉及到跨平台，还要分平台检测
+cmake指向CMakeLists.txt所在的目录，cmake后会生成很多编译的中间文件以及makefile文件，所以一般建议新建一个新的目录，专门用来编译,make根据生成的makefile文件，编译程序
+
